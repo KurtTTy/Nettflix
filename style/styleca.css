@@ -1,0 +1,45 @@
+body{
+    background-color: #000000d7 ;
+}
+.logo{
+    width: 120px;
+    height: 100;
+    cursor: pointer;
+    padding: -1%;
+    position:relative;
+    margin: 20px;
+}
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+    color: rgb(255, 255, 255);
+}
+body{
+    background-color: #000000 ;
+    font-size: medium;
+}
+.logo{
+  width: 190px;
+  height: 150;
+  cursor: pointer;
+  padding: 1%;
+  position: fixed;
+  margin: 20px;
+}
+.content{
+    top: 40%;
+    position: absolute;
+    transform: translatey(-50%);
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10%;
+  }
+  .content h3{
+    font-size: 25px;
+    font-weight: 200;
+  }
+  .content span{
+    color: #ff0000;
+    font-weight: 900;
+  }

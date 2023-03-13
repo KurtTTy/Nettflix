@@ -1,0 +1,60 @@
+body{
+    background-color: #000000d7 ;
+}
+.logo{
+    width: 120px;
+    height: 100;
+    cursor: pointer;
+    padding: -1%;
+    position:relative;
+    margin: 20px;
+}
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+    color: rgb(255, 255, 255);
+}
+span{
+    color: red;
+    font-size: 25px;
+}
+.row____poster{
+    
+    object-fit: contain;
+    max-height: 200px;
+    margin-right: 10px;
+    transition: transform 450ms;
+    cursor: pointer;
+}
+.row____posters{
+    display:flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+.row____poster:hover{
+    transform: scale(1.08);
+}
+.row____posters::-webkit-scrollbar{
+    display: none;
+}
+.row___posterLarge{
+    max-height: 250px;
+}
+.row___posterLarge:hover{
+    transform: scale(1.09);
+}
+.row{
+    color: white;
+    margin-left: 20px;
+}
+.banner{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    
+}
+.line {
+    border-bottom: 8px solid rgb(170, 17, 17);
+  }
+  
